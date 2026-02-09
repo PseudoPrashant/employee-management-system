@@ -65,6 +65,7 @@ Copy code
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/yourusername/employee-management-system.git
+```
 2️⃣ Move Project to XAMPP Directory
 Copy the project folder into:
 
@@ -98,6 +99,7 @@ Open the SQL tab and run the following query:
 
 sql
 Copy code
+```
 CREATE TABLE admins (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(100) NOT NULL UNIQUE,
@@ -116,6 +118,7 @@ CREATE TABLE employees (
 
 INSERT INTO admins (username, password)
 VALUES ('admin', 'admin123');
+```
 ▶️ Run the Project
 Open your browser and go to:
 
