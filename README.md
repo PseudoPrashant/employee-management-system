@@ -51,6 +51,12 @@ employee-management-system/
 │
 │── assets/
 │ └── style.css
+│ └── screenshots
+│     └── add_employee.jpg
+│     └── dashboard.jpg
+│     └── edit_employees.jpg
+│     └── empolyees.jpg
+│     └── login.jpg
 │
 │── dashboard.php
 │── index.php
@@ -123,17 +129,19 @@ Password: admin123
 ## 📸 Screenshots
 
 ### Admin Login
-![Login Page](assets/screenshots/login.png)
+![Login Page](assets/screenshots/login.jpg)
 
 ### Dashboard
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](assets/screenshots/dashboard.jpg)
 
 ### Employee List
-![Employee List](assets/screenshots/employees.png)
+![Employee List](assets/screenshots/employees.jpg)
 
 ### Add Employee
-![Add Employee](assets/screenshots/add_employee.png)
+![Add Employee](assets/screenshots/add_employees.jpg)
 
+### Edit Employee
+![Edit Employee](assets/screenshots/edit_employee.jpg)
 
 📌 Future Improvements
 - Password hashing using bcrypt
