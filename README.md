@@ -120,6 +120,21 @@ http://localhost/employee-management-system/
 Username: admin
 Password: admin123
 
+## 📸 Screenshots
+
+### Admin Login
+![Login Page](assets/screenshots/login.png)
+
+### Dashboard
+![Dashboard](assets/screenshots/dashboard.png)
+
+### Employee List
+![Employee List](assets/screenshots/employees.png)
+
+### Add Employee
+![Add Employee](assets/screenshots/add_employee.png)
+
+
 📌 Future Improvements
 - Password hashing using bcrypt
 - Prepared statements for better security (SQL Injection prevention)
