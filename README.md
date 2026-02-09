@@ -138,7 +138,7 @@ Password: admin123
 ![Employee List](assets/screenshots/employees.jpg)
 
 ### Add Employee
-![Add Employee](assets/screenshots/add_employees.jpg)
+![Add Employee](assets/screenshots/add_employee.jpg)
 
 ### Edit Employee
 ![Edit Employee](assets/screenshots/edit_employee.jpg)
