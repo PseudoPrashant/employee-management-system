@@ -1,16 +1,13 @@
-# OS files
+# OS junk
 .DS_Store
 Thumbs.db
 
-# IDE files
+# Editor settings
 .vscode/
 .idea/
 
 # Logs
 *.log
 
-# Environment / config
+# Env files
 .env
-
-# XAMPP local configs (optional)
-config/db.php
