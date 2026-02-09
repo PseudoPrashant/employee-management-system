@@ -29,7 +29,7 @@ A web-based **Employee Management System** developed using **Core PHP** and **My
 ---
 
 ## 📂 Project Folder Structure
-
+```
 employee-management-system/
 │── config/
 │ └── db.php
@@ -54,9 +54,7 @@ employee-management-system/
 │
 │── dashboard.php
 │── index.php
-
-yaml
-Copy code
+```
 
 ---
 
@@ -68,37 +66,29 @@ git clone https://github.com/yourusername/employee-management-system.git
 ```
 2️⃣ Move Project to XAMPP Directory
 Copy the project folder into:
-
-makefile
-Copy code
+```
 C:\xampp\htdocs\
+```
 Example:
-
-makefile
-Copy code
+```
 C:\xampp\htdocs\employee-management-system
+```
 3️⃣ Start XAMPP
 Open XAMPP Control Panel and start:
-
-Apache
-
-MySQL
+- Apache
+- MySQL
 
 🗄 Database Setup (MySQL)
 Open phpMyAdmin:
-
-arduino
-Copy code
+```
 http://localhost/phpmyadmin/
+```
 Create a new database:
-
-nginx
-Copy code
+```
 employee_db
+```
 Open the SQL tab and run the following query:
 
-sql
-Copy code
 ```
 CREATE TABLE admins (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -122,25 +112,21 @@ VALUES ('admin', 'admin123');
 ▶️ Run the Project
 Open your browser and go to:
 
-perl
-Copy code
+```
 http://localhost/employee-management-system/
+```
+
 🔑 Admin Login Credentials
 Username: admin
 Password: admin123
 
 📌 Future Improvements
-Password hashing using bcrypt
-
-Prepared statements for better security (SQL Injection prevention)
-
-Pagination for employee list
-
-Export employee data to CSV
-
-UI improvements using Bootstrap
-
-Role-based access system (Admin/User)
+- Password hashing using bcrypt
+- Prepared statements for better security (SQL Injection prevention)
+- Pagination for employee list
+- Export employee data to CSV
+- UI improvements using Bootstrap
+- Role-based access system (Admin/User)
 
 👨‍💻 Author
 Prashant Kumar Sharma
